@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           p, legend {
+            font-size: 0.5cm;
+           }
+           p:hover {
+            background-color: azure;
+           }
+
+           div {
+            background-image: linear-gradient(rgb(91, 91, 201), white);
+           }
+           fieldset {
+            border: 2px solid red;
+            height: auto;
+           }
+           input[type=text]:focus{
+            background-image: linear-gradient(rgb(180, 99, 99), white);
+           }
+
+        </style>
+    </head>
+    <body>
+        <div>
+           <form method="get" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php.">
+            <fieldset class="personal">
+                <legend>Datos personales</legend><br>
+                <p> Nombre: <input type="text"></p><br>
+                <p>Apellidos: <input type="text"> </p><br>
+                <p> Fecha de nacimiento <input type="date"></p><br>
+                <p> ¿Jugaste antes? <br> <input type="radio" value="si">Si <br> <input type="radio" value="no"> No </p><br>
+                <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+            </fieldset> 
+        </div>
+        
+        </form>
+    </body>
+</html>

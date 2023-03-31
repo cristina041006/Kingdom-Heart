@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           p, legend {
+            font-size: 0.5cm;
+           }
+           p:hover {
+            background-color: azure;
+           }
+
+           div {
+            background-image: linear-gradient(rgb(91, 91, 201), white);
+           }
+           fieldset {
+            border: 2px solid red;
+            height: auto;
+           }
+           input[type=text]:focus{
+            background-image: linear-gradient(rgb(180, 99, 99), white);
+           }
+
+
+        </style>
+    </head>
+    <body>
+        <div>
+           <form method="get" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php.">
+            <fieldset class="personal">
+                <legend>Sobre el juego</legend><br>
+                <p> ¿Cual es tu juego favorito?: <input type="text"></p><br>
+                <p> ¿Que mas te gustaria saber de Kingdom Heart? <input type="text"> </p><br>
+                <p> ¿Jugaste alguna vez a Kingdom Heart?: <br> <input type="radio" value="si">Si <br> <input type="radio" value="no"> No </p><br>
+                <p> ¿Comprarias el nuevo juego?: <br> <input type="radio" value="si">Si <br> <input type="radio" value="no"> No </p><br>
+                <p> ¿Cula fue tu parte favorita?: <br> <input type="checkbox" value="si">Kingdom Heart 365 <br> <input type="checkbox" value="no"> Kingdom Heart 1 <br> <input type="checkbox" value="no"> Kingdom Heart Birth By Sleep <br> <input type="checkbox" value="no"> Kingdom Heart 2 <br> <input type="checkbox" value="no"> Kingdom Heart 2.8 <br> <input type="checkbox" value="no"> Kingdom Heart 3 </p><br>
+                <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+            </fieldset> 
+        </div>
+        
+        </form>
+    </body>
+</html>

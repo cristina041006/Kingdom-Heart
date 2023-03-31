@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           p, legend {
+            font-size: 0.5cm;
+           }
+           p:hover {
+            background-color: azure;
+           }
+
+           div {
+            background-image: linear-gradient(rgb(91, 91, 201), white);
+           }
+           fieldset {
+            border: 2px solid red;
+            height: auto;
+           }
+           textarea:focus{
+            background-image: linear-gradient(rgb(180, 99, 99), white);
+           }
+
+
+        </style>
+    </head>
+    <body>
+        <div>
+           <form method="get" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php.">
+            <fieldset class="personal">
+                <legend>Opinion</legend><br>
+                <p> Escribe una breve opinion de lo que te parioo nuestra pagina web y como podriamos mejorarlo <br><br><textarea type="texto" rows="3" cols="30" placeholder="Escriba aqui"></textarea></p><br>
+                <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+            </fieldset> 
+        </div>
+        
+        </form>
+    </body>
+</html>
